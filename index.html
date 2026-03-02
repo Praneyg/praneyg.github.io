@@ -771,6 +771,28 @@
         <!-- Publication 2 -->
         <div class="publication-item" style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #f0f0f0;">
           <h2 style="font-size: 1.3rem; font-weight: 600; color: var(--text-color); margin-bottom: 0.5rem; line-height: 1.3;">
+            LORA users beware: A few spurious tokens can manipulate your finetuned model
+          </h2>
+
+          <div class="publication-meta" style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.9rem;">
+            <span style="color: var(--accent-color); font-weight: 500;">Published in arXiv (Preprint), 2025</span>
+          </div>
+
+          <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem; text-align: justify;">
+            This work reveals a critical vulnerability in Low-Rank Adaptation (LoRA) for LLM finetuning: even a single spuriously correlated token can manipulate model predictions. We introduce Seamless Spurious Token Injection (SSTI) and demonstrate that more resource-efficient LoRA setups are paradoxically more vulnerable to attacks. Our experiments across multiple model families and datasets show that existing data sanitization methods fail to prevent these manipulations, raising significant concerns for AI safety and data quality in production systems.
+          </p>
+
+          <div class="publication-citation" style="background: var(--citation-bg); padding: 1rem; border-left: 4px solid var(--accent-color); margin-top: 1rem; font-family: monospace; font-size: 0.85rem; color: var(--text-secondary);">
+            <strong>Recommended citation:</strong> Marcel Mateos Salles*, Praney Goyal*, Pradyut Sekhsaria, Hai Huang, Randall Balestriero (2025). LORA users beware: A few spurious tokens can manipulate your finetuned model. ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities.
+            <a href="https://arxiv.org/abs/2506.11402" style="color: var(--accent-color); text-decoration: none; margin-left: 0.5rem;" target="_blank">
+              https://openreview.net/forum?id=F6OpAErX4Q&noteId=aOhqx17wDv
+            </a>
+          </div>
+        </div>
+
+        <!-- Publication 3 -->
+        <div class="publication-item" style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #f0f0f0;">
+          <h2 style="font-size: 1.3rem; font-weight: 600; color: var(--text-color); margin-bottom: 0.5rem; line-height: 1.3;">
             Paraphrasing Away Malicious Tokens: Improving LLM Finetuning Safety by Filtering Spurious Correlation
           </h2>
 
