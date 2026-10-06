@@ -74,6 +74,7 @@ async function copyText(text, message) {
   } catch { notify('Copy unavailable in this browser. Please select and copy the text.'); }
 }
 document.querySelector('#copy-email').addEventListener('click', () => copyText('praneyygoyal@gmail.com', 'Email address copied'));
+
 document.querySelectorAll('.copy-citation').forEach(button => button.addEventListener('click', () => copyText(button.dataset.citation, 'Citation copied')));
 document.querySelector('#year').textContent = new Date().getFullYear();
 
